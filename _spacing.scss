@@ -1,0 +1,7 @@
+@each $spacing_name, $spacing_value in $spacing{
+    @each $space_name, $space_value in spacing-size-calculate(){
+        .#{$spacing_value}-#{$space_name} {
+            #{$spacing_name}:#{$space_value}!important;
+        }
+    };
+ }

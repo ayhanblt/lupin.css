@@ -1,0 +1,10 @@
+
+@function spacing-size-calculate(){
+    $size :();
+    @for $i from 1 through 25{
+        $size : map-merge((
+            $i:#{$i*4}px
+        ),$size);
+    }
+    @return $size;
+}

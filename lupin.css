@@ -1,3 +1,11 @@
+/* $breakpoints:(
+    'base': 540,
+    'sm': 720,
+    'md': 960,
+    'lg': 1140,
+    'xl': 1920,
+    'xxl': 3840,
+); */
 *,
 *::before,
 *::after {
@@ -23,6 +31,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
@@ -313,6 +322,7 @@ template {
   display: none !important;
 }
 
+/* Color Mixins */
 .white {
   color: #fff;
 }
@@ -2915,5 +2925,205 @@ template {
 .shades.transparent {
   color: transparent !important;
   caret-color: transparent !important;
+}
+
+.m-25 {
+  margin: 100px !important;
+}
+
+.m-24 {
+  margin: 96px !important;
+}
+
+.m-23 {
+  margin: 92px !important;
+}
+
+.m-22 {
+  margin: 88px !important;
+}
+
+.m-21 {
+  margin: 84px !important;
+}
+
+.m-20 {
+  margin: 80px !important;
+}
+
+.m-19 {
+  margin: 76px !important;
+}
+
+.m-18 {
+  margin: 72px !important;
+}
+
+.m-17 {
+  margin: 68px !important;
+}
+
+.m-16 {
+  margin: 64px !important;
+}
+
+.m-15 {
+  margin: 60px !important;
+}
+
+.m-14 {
+  margin: 56px !important;
+}
+
+.m-13 {
+  margin: 52px !important;
+}
+
+.m-12 {
+  margin: 48px !important;
+}
+
+.m-11 {
+  margin: 44px !important;
+}
+
+.m-10 {
+  margin: 40px !important;
+}
+
+.m-9 {
+  margin: 36px !important;
+}
+
+.m-8 {
+  margin: 32px !important;
+}
+
+.m-7 {
+  margin: 28px !important;
+}
+
+.m-6 {
+  margin: 24px !important;
+}
+
+.m-5 {
+  margin: 20px !important;
+}
+
+.m-4 {
+  margin: 16px !important;
+}
+
+.m-3 {
+  margin: 12px !important;
+}
+
+.m-2 {
+  margin: 8px !important;
+}
+
+.m-1 {
+  margin: 4px !important;
+}
+
+.p-25 {
+  padding: 100px !important;
+}
+
+.p-24 {
+  padding: 96px !important;
+}
+
+.p-23 {
+  padding: 92px !important;
+}
+
+.p-22 {
+  padding: 88px !important;
+}
+
+.p-21 {
+  padding: 84px !important;
+}
+
+.p-20 {
+  padding: 80px !important;
+}
+
+.p-19 {
+  padding: 76px !important;
+}
+
+.p-18 {
+  padding: 72px !important;
+}
+
+.p-17 {
+  padding: 68px !important;
+}
+
+.p-16 {
+  padding: 64px !important;
+}
+
+.p-15 {
+  padding: 60px !important;
+}
+
+.p-14 {
+  padding: 56px !important;
+}
+
+.p-13 {
+  padding: 52px !important;
+}
+
+.p-12 {
+  padding: 48px !important;
+}
+
+.p-11 {
+  padding: 44px !important;
+}
+
+.p-10 {
+  padding: 40px !important;
+}
+
+.p-9 {
+  padding: 36px !important;
+}
+
+.p-8 {
+  padding: 32px !important;
+}
+
+.p-7 {
+  padding: 28px !important;
+}
+
+.p-6 {
+  padding: 24px !important;
+}
+
+.p-5 {
+  padding: 20px !important;
+}
+
+.p-4 {
+  padding: 16px !important;
+}
+
+.p-3 {
+  padding: 12px !important;
+}
+
+.p-2 {
+  padding: 8px !important;
+}
+
+.p-1 {
+  padding: 4px !important;
 }
 /*# sourceMappingURL=lupin.css.map */

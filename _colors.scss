@@ -458,14 +458,6 @@ $colors: map-merge(
     color: $white;
 }
 
-@mixin background-color($color_value) {
-    background-color: $color_value !important;
-    border-color: $color_value !important;
-  }
-  @mixin text-color($color_value) {
-    color: $color_value !important;
-    caret-color: $color_value !important;
-  }
   
   // Put the loop in a function so it can't leak
   @each $color_name, $color_value in $shades {

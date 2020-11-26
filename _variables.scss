@@ -4,3 +4,29 @@ $body-font-family: 'Roboto', sans-serif !default;
 $font-size-root: 16px !default;
 $line-height-root: 1.5 !default;
 $border-radius-root: 4px !default;
+
+
+
+$spacing: () !default;
+$spacing: map-merge(
+  (
+    'margin': 'm',
+    'padding': 'p'
+      ),
+  $spacing
+);
+
+/* $breakpoints:(
+    'base': 540,
+    'sm': 720,
+    'md': 960,
+    'lg': 1140,
+    'xl': 1920,
+    'xxl': 3840,
+); */
+
+// $size:() !default;
+// $size: map-merge( , $size );
+ 
+ 
+
