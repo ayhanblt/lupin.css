@@ -8,3 +8,52 @@
     color: $color_value !important;
     caret-color: $color_value !important;
   }
+
+/* Font Sizes 
+ --- using fs- + number --
+*/
+
+@mixin font-size() {
+  $step: 0.10;
+  $max: 8;
+  @for $i from 1 through ($max/$step) {
+      $w: $i * $step;
+      .fs-#{$i} {
+          font-size: $w + em !important;
+      }
+  }
+}
+@include font-size();
+
+
+
+/* Width rem type
+1-15rem, steps 1
+*/
+@mixin width() {
+  $step: 1;
+  $max: 15;
+  @for $i from 1 through ($max/$step) {
+      $w: $i * $step;
+      .width-#{$i} {
+          width: $w + rem !important;
+      }
+  }
+}
+@include width();
+
+/* Width percent type
+1-100%, steps 5%
+*/
+@mixin width() {
+  $step: 0.05;
+  $max: 1;
+  @for $i from 1 through ($max/$step) {
+      $w: $i * $step;
+      .width-per-#{$i} {
+          width: percentage($w) !important;
+      }
+  }
+}
+
+@include width();
